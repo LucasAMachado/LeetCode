@@ -26,8 +26,9 @@ class Solution:
 
         # Check to make sure that the stack is empty and return it
         return not stack
+
 def main():
-    # For testing testing
+    # Testing
     solution = Solution()
     s = "()[]"
     print(solution.isValid(s))

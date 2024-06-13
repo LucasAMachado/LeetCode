@@ -1,6 +1,5 @@
 from typing import List
 
-
 # Solution One
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
@@ -18,7 +17,7 @@ class Solution:
 
 
 def main():
-    # Testing removeDuplicates
+    # Testing 
     solution = Solution()
     nums = [0, 1, 2, 2, 3, 0, 4, 2]
     print(solution.removeElement(nums, 2))

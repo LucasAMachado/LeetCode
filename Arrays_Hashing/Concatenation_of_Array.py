@@ -1,6 +1,5 @@
 from typing import List
 
-
 # Solution One -> O(n)
 class Solution:
     def getConcatenation(self, nums: List[int]) -> List[int]:
@@ -26,8 +25,8 @@ class Solution:
 
         return ans
 
-# For testing
 def main():
+    # Testing 
     solution = Solution()
     nums = [1, 3, 2, 1]
     print(solution.getConcatenation(nums))

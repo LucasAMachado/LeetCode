@@ -24,8 +24,8 @@ class Solution:
         return sum(stack)
 
 
-# For testing
 def main():
+    # Testing
     solution = Solution()
     ops = ["5", "-2", "4", "C", "D", "9", "+", "+"]
     print(solution.calPoints(ops))
