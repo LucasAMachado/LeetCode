@@ -2,8 +2,6 @@ from collections import defaultdict
 from typing import List
 
 # Solution 1 -> O(nlogn)
-
-
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         numsMap = {}  # num : occurrences
@@ -17,6 +15,7 @@ class Solution:
             numsMap.items(), key=lambda item: item[1], reverse=True)[:k]]
 
         return topK  # [list of the nums]
+    
 
 # Solution 2 -> O(n) (Bucket Sort idea)
 class Solution:
