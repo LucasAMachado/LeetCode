@@ -21,14 +21,3 @@ class Solution:
                 longest = max(longest, result)
 
         return longest
-
-
-def main():
-    # Testing
-    solution = Solution()
-    nums = [1, 2, 0, 1]
-    print(solution.longestConsecutive(nums))
-
-
-if __name__ == "__main__":
-    main()
