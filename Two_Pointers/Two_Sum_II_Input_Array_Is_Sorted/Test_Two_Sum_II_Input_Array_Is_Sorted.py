@@ -8,6 +8,7 @@ def main():
     test_3()
     test_4()
 
+
 def test_1():
     sol = Solution()
     numbers = [2, 7, 11, 15]
