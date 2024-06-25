@@ -1,6 +1,6 @@
 from typing import List
 
-
+# Solution 1 -> Time Complexity O(n) : Memory Complexity O(1)
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         l, r = 0, len(height) - 1
