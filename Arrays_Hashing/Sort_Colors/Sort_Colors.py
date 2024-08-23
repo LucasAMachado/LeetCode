@@ -1,6 +1,6 @@
 from typing import List
 
-# Solution 1 : Time Complexity : O(n), Space Complexity : O(1       )
+# Solution 1 : Time Complexity : O(n), Space Complexity : O(1)
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
         """
